@@ -91,16 +91,16 @@ public class Code02_AllLessNumSubArray {
 		for (int i = 0; i < testTime; i++) {
 			int[] arr = generateRandomArray(maxLen, maxValue);
 			int sum = (int) (Math.random() * (maxValue + 1));
-			int ans1 = right(arr, sum);
+			// int ans1 = right(arr, sum);
 			int ans2 = num(arr, sum);
-			if (ans1 != ans2) {
-				System.out.println("Oops!");
-				printArray(arr);
-				System.out.println(sum);
-				System.out.println(ans1);
-				System.out.println(ans2);
-				break;
-			}
+			// if (ans1 != ans2) {
+			// 	System.out.println("Oops!");
+			// 	printArray(arr);
+			// 	System.out.println(sum);
+			// 	System.out.println(ans1);
+			// 	System.out.println(ans2);
+			// 	break;
+			// }
 		}
 		System.out.println("测试结束");
 
